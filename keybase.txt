@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/filippov
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fvalle1.github.io
+  * I am filippov (https://keybase.io/filippov) on keybase.
+  * I have a public key with fingerprint C76D 6578 42A0 CEAA 85D4  2F0A D99B 5A4A 7F2E DD81
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014676658217fbf1bb8f46455022d7db6daea9fbdaace178c279206d1529062cc30a",
+            "fingerprint": "c76d657842a0ceaa85d42f0ad99b5a4a7f2edd81",
+            "host": "keybase.io",
+            "key_id": "d99b5a4a7f2edd81",
+            "kid": "01014676658217fbf1bb8f46455022d7db6daea9fbdaace178c279206d1529062cc30a",
+            "uid": "948aabfd09741fc173d60b5334943200",
+            "username": "filippov"
+        },
+        "revoke": {
+            "sig_ids": [
+                "c591721e4f46cdea5c1f73a351d0bd0ff72278aaed7d2215d51a01e6551414c80f"
+            ]
+        },
+        "service": {
+            "hostname": "fvalle1.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1456568202,
+    "expire_in": 157680000,
+    "prev": "12a3a6e3510603e10862b1b9554f239ff975bdc6017f7bb0e1c5e971564b3be9",
+    "seqno": 50,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtkm2IVFUYx2c1XRsQTDLEAu3mVMq4nnPuebl32iXZQqwQQtYNq9nhvM5eZrz3
+7tw7o6Nr9gZifbAX1KCUit7YInshg4qCPqQoigshbTqQYZmlS6C9gVnnbvmtj50v
+h3PO//k9/+d5zlOzp+fyXRPP33/31p7OI12Hz4rc4PiGHZsdEam2U9rs1PTUputK
+J2mlFiin5AAIIKaMUuIhyIwwUAjPYIoJAQgppgRVXHPfCMW51JB5EjEfAaogQT6g
+SEoXcKfomCCs6kbcCMLUYiWjihLmYcSB1Jx7RGFkAFe+LwjHnBmklfKgDRyOkizC
+mhM80T1BZO/soTJl7z/0/7Pv5hTOxx7nwijgMwyNhMxVFAjiutjHLgIgEya6EfL1
+2qpNUA/iOGo5W4pOQ7eims76mgRVazpxSg84kviQIaixdSSV5kRCw1zuEqiAUMAY
+hhCzGbU1ihAkikAOoKaEQAyx9IBxypZtM7YCOQXPunQle4vX6xr2VIN0uCn+aVjc
+iNJIRnX7PJymcVLKrH2UtuMsYIMWlX9RFRGEyk7KhrR0Iwmi0ClBK5VpkLEhJpRQ
+DwFUdPTGOGjoSpApCKMesCtLpFsWCRF3OdW2IECBqyHwKBJQ+IRgg1zfGJ8RoSQF
+djZMCKChJNpnkFAsXKF9JytuJIycErHQlFct0/Yv5GmzoZ0t+e1dN1yV68rnZs6Y
+lv3hXP7qOVc+9j0nui8Xk9t/WzC08cYVMz44teerocLFtQ9tOzrQvz6sHJ95bM3O
+TS9Ofy38teM+F57Zdan5abGzad+Xa9/94vrK6R/Ojd01LXpwz+ep+2Zh1Yq5hf79
+c3fuwuGha5aNPPrT2yOvr/qj05k1edvoou6X09GQnlhy+fzyNnx8aMmxXxbeN3H2
+6znXgZdqT4/0Hlz5cbe5hMRjt07+1f/99t+fOblv3eoFy3acrxV6fz433nvvLX+u
+nv/k4FuHcj8O9i19Nj9w6uSZxX0ry+Edu9954bNXD5bn7d898Z6qjg3G468sXbi4
+PPvaN/YeufDEmps+6YuPDwTNsfaknHX6wLxFhe+2Bg/zbd/emXt/qP1NMlpe9+HN
+fwM=
+=3+TF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/filippov
+
+==================================================================
