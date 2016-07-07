@@ -1,5 +1,6 @@
--------
-position: .well-known/acme-challange
--------
+---
+layout: none
+permalink: .well-known/acme-challange
+---
 
 mSeqEblcXiEbIZ_05c88rD0FA9-fjDGmI9PU6m6TSYE.VsRC93kf3p2dIStu6bUNaIimZZvl6rC-0cUPgML5VtY
