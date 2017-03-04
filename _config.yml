@@ -2,7 +2,7 @@ title: Filippo V
 description: My personal page
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
