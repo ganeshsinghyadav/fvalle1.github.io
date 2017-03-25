@@ -3,9 +3,9 @@
 This is my window on the net!
 
 ## Contacts
-You may contact me at [fvalle(at)protonmail.ch](mailto:fvalle@protonmail.ch)!
+You may contact me at [filippo_valle(at)protonmail.ch](mailto:filippo_valle@protonmail.ch)!
 
-I'm also available on [Telegram](https://telegram.me/Filippo314).
+I'm also available on [Telegram](https://telegram.me/Filippo_Valle).
 
 ## Projects
 ### Cosmic Rays
