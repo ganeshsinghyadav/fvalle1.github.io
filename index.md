@@ -8,12 +8,12 @@ You may contact me at [filippo_valle(at)protonmail.ch](mailto:filippo_valle@prot
 I'm also available on [Telegram](https://telegram.me/Filippo_Valle).
 
 ## ALICE experiment at CERN
-I [contribute](https://github.com/gabrielefronze/alice-MTR-utils/graphs/contributors) to [https://github.com/gabrielefronze/alice-MTR-utils](https://github.com/gabrielefronze/alice-MTR-utils), a series of utilities to generate plot in an automatic way.
+I [contribute](https://github.com/gabrielefronze/alice-MTR-utils/graphs/contributors) to [https://github.com/gabrielefronze/alice-MTR-utils](https://github.com/gabrielefronze/alice-MTR-utils), a series of utilities to generate plots in an automatic way.
 
 ## Cosmic Rays
 I made a project called *Analisi di raggi cosmici con Supercomputer* during High school.
 
-I developed code to make a montecarlo simulation of interaction of cosmic rays with atmoshpere, code was developed using *openMP*. I ran it on a multiprocessor machine.
+I developed code to make a montecarlo simulation about interaction of cosmic rays with atmoshpere, code was developed using *openMP*. I ran it on a multiprocessor machine.
 
 You may find [more information](http://www.slideshare.net/FilippoValle2/tesina-analisi-di-raggi-cosmici-e-supercomputer) about this research.
 
