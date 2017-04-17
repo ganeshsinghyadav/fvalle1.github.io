@@ -3,7 +3,7 @@
 Some information about me
 
 ## Contacts
-You may contact me at [filippo_valle(at)protonmail.ch](mailto:filippo_valle@protonmail.ch)
+You may contact me at [filippo_valle(at)protonmail.com](mailto:filippo_valle@protonmail.com)
 
 I'm also available on [Telegram](https://telegram.me/Filippo_Valle).
 
