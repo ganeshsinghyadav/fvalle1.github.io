@@ -19,6 +19,11 @@ You may find [more information](http://www.slideshare.net/FilippoValle2/tesina-a
 
 This work is referenced [here](http://www.istitutomoro.it/area-studenti-e-famiglie/esame-di-stato/esempi-di-tesine/analisi-di-raggi-cosmici-mediante-supercomputer/).
 
+## Mac App
+I depeloped an app to monitor macOS hardware.
+
+[github.com/fvalle1/macOS-temperature](https://github.com/fvalle1/macOS-temperature/blob/master/README.md)
+
 ## Photos
 I really love **taking photos**, on [Flickr](https://flic.kr/ps/35x3u4) you may find picutures I took to subjects like our **moon**, stars and so on (Yep, I love **astronomy!**)
 
