@@ -22,16 +22,16 @@ This work is referenced [here](http://www.istitutomoro.it/area-studenti-e-famigl
 ## Mac App
 I depeloped an app to monitor macOS hardware.
 
-[github.com/fvalle1/macOS-temperature](https://github.com/fvalle1/macOS-temperature/blob/master/README.md)
-
-## Photos
-I really love **taking photos**, on [Flickr](https://flic.kr/ps/35x3u4) you may find picutures I took to subjects like our **moon**, stars and so on (Yep, I love **astronomy!**)
+[sourceforge.net/projects/macos-temperature](https://sourceforge.net/projects/macos-temperature/?source=directory)
 
 ## Diceware
 I [contributed](http://www.taringamberini.com/it/diceware_it_IT/lista-di-parole-diceware-in-italiano/contributi/) to the italian version of **Diceware**.
 
 ## Physics
 I was [interviewed](http://www.carnevaledellafisica.it/2014/11/dal-liceo-alla-facolta-di-fisica.html) about my passion of physics.
+
+## Photos
+I really love **taking photos**, on [Flickr](https://flic.kr/ps/35x3u4) you may find picutures I took to subjects like our **moon**, stars and so on (Yep, I love **astronomy!**)
 
 ## One more thing...
 I'm trying to do some other great things, so stay tuned!
