@@ -1,0 +1,101 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #606c71
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+h2 {
+  color: #203482;
+  font-size: 30px;
+}
+
+a {
+  color: #1eb5ad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #1e8984;
+}
+
+.mail-link {
+  color: #1eb5ad;
+  font-size:18px;
+  font-family: monospace;
+}
+
+.main-section {
+  background-color: #53db90;
+  color: #f9f9f9;
+  text-align: center;
+  background-image: linear-gradient(110deg, #203482, #53db90);
+  margin-top: 0;
+}
+
+section {
+  display: block;
+}
+
+
+@media screen and (min-width: 64em) {
+    .main-section {
+        padding: 3rem 6rem
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .main-section {
+        padding: 3rem 4rem
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .main-section {
+        padding: 2rem 1rem
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .main-content {
+        max-width: 64rem;
+        padding: 2rem 6rem;
+        margin: 0 auto;
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .main-content {
+        padding: 2rem 4rem;
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .main-content {
+        padding: 2rem 1rem;
+        font-size: 1rem
+    }
+}
+
+#contact-thanks {
+  color: #1eb5ad;
+}
