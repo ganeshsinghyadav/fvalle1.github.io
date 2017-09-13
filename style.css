@@ -21,6 +21,12 @@ h1 {
 h2 {
   color: #203482;
   font-size: 30px;
+  padding-top: 1.5rem;
+}
+
+h3 {
+  color: #203482;
+  font-size: 22px;
 }
 
 a {
@@ -98,4 +104,24 @@ section {
 
 #contact-thanks {
   color: #1eb5ad;
+}
+
+
+.carousel-myitem{
+  background: #FFF;
+  text-align: center;
+  width:90%;
+  height: 12em;
+  margin:auto;
+  font-size: 18px;
+}
+
+.carousel-myindicators{
+  background: #53db90;
+  margin:auto;
+  width:2.5%;
+}
+
+.carousel-myindicators:hover{
+  background: #1eb5ad;
 }

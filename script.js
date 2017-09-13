@@ -9,7 +9,7 @@ function getAppVersion(){
   xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
           var version=JSON.parse(this.responseText);
-            document.getElementById("app-version").innerHTML ="my app is now at version "+version["version"];
+            document.getElementById("app-version").innerHTML ="My app is now at version "+version["version"];
        }
     };
   xhttp.open("GET","http://phil-personal-api.herokuapp.com/Temperature_version.php?key=xenoncursedavitindiesyb",true);
