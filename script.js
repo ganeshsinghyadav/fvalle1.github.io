@@ -12,6 +12,6 @@ function getAppVersion(){
             document.getElementById("app-version").innerHTML ="My app is now at version "+version["version"];
        }
     };
-  xhttp.open("GET","http://phil-personal-api.herokuapp.com/Temperature_version.php?key=xenoncursedavitindiesyb",true);
+  xhttp.open("GET","https://phil-personal-api.herokuapp.com/Temperature_version.php?key=xenoncursedavitindiesyb",true);
   xhttp.send();
 }
