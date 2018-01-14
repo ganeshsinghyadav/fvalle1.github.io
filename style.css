@@ -42,6 +42,13 @@ a:visited {
   color: #1e8984;
 }
 
+#my-tabs.nav-tabs > li > a {
+    padding: 8px 16px;
+    margin:0;
+    color:blue;
+    margin-right: -4px;
+}
+
 .mail-link {
   color: #1eb5ad;
   font-size:18px;
