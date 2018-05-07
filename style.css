@@ -30,17 +30,13 @@ h3 {
   padding-top: 2.5rem;
 }
 
-a {
-  color: #1eb5ad;
+a, a:visited {
+  color: #1e8984;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-a:visited {
-  color: #1e8984;
 }
 
 #my-tabs.nav-tabs > li > a {
