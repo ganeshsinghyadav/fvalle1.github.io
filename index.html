@@ -1,145 +1,352 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="website">
+<!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
 <head>
-  <title>Filippo Valle</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="Filippo Valle's portfolio">
+  <meta name="author" content="Filippo Valle">
 
-  <link rel="stylesheet" type="text/css" href="style.css"/>
-  <link href="app/angular-carousel.css" rel="stylesheet" type="text/css" />
+  <title>Filippo Valle</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Google Web Font -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom CSS-->
+  <link href="css/general.css" rel="stylesheet">
+
+  <!-- Owl-Carousel -->
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-  <script src="script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-touch.js"></script>
-  <script src="app/angular-carousel.js"></script>
-  <script src="app/website.module.js"></script>
-  <script src="app/website.component.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/6a745c2271.js"></script>
+  <script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+  <!--[if IE 9]>
+  <script src="js/PIE_IE9.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="js/PIE_IE678.js"></script>
+  <![endif]-->
 
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="Author" content="Filippo Valle"/>
-  <meta charset="utf-8"/>
 </head>
-<body>
-  <section class="main-section">
 
-    <h1 id="welcome-to-filippo-webpage">Welcome to Filippo Valle's webpage</h1>
+<body id="home">
 
-  </section>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status"></div>
+  </div>
 
-  <section class="main-content">
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist" id="my-tabs">
-      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-      <li role="presentation"><a href="#projects" aria-controls="profile" role="tab" data-toggle="tab">Projects</a></li>
-      <li role="presentation"><a href="#contacts" aria-controls="messages" role="tab" data-toggle="tab">Contacts</a></li>
-    </ul>
+  <!-- FullScreen -->
+  <div class="intro-header">
+    <div class="col-xs-12 text-center abcen1">
+      <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Filippo Valle</h1>
+      <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Physicist, Complex Systems</h3>
+      <ul class="list-inline intro-social-buttons">
+        <li><a href="https://twitter.com/Filippo_Valle" class="btn btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/filippo-v-5566a7100" class="btn btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">LinkedIn</span></a>
+        </li>
+        <li id="github" ><a href="https://fvalle1.github.io/" class="btn btn-lg mybutton_cyano wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Github</span></a>
+        </li>
+        <li id="cv" ><a href="cv.pdf" class="btn btn-lg mybutton_cyano wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">CV</span></a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+    <div class="col-xs-12 text-center abcen wow fadeIn">
+      <div class="button_down ">
+        <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+      </div>
+    </div>
+  </div>
 
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="home">
-        <div style="width:100%;margin:auto;">
-          <span style="float:left;width:40%;margin:auto;">
-            <br>
-            <img src="profile.JPG" height="250px" padding-top="100rem"/>
-          </span>
-          <span style="float:right;width:60%;margin:auto;">
-            <br>
-            I'm a young physics student, I love trekking <i class="fa fa-tree" aria-hidden="true"></i> and writing code <i class="fa fa-file-code-o" aria-hidden="true"></i>, taking photos <i class="fa fa-camera" aria-hidden="true"></i> and swimming <i class="fa fa-tint" aria-hidden="true"></i>.
-            <br><br><br>
-            <ul>
-              <li><i class="fa fa-terminal" aria-hidden="true"></i> Need to develop a code? I'm with you!</li>
-              <li><i class="fa fa-map" aria-hidden="true"></i> Want to go to mountain? Call me!</li>
-              <li><i class="fa fa-star-o" aria-hidden="true"></i> Ever desire to stargaze? Contacts are upper in this page!</li>
-              <li><i class="fa fa-google" aria-hidden="true"></i> For everything else use <a href="https://google.com/?q=Filippo%20Valle">Google</a></li>
-            </ul>
-          </span>
-        </div>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <div style="">
-          <h2>Most interesting works</h2>
-          Some of by best projects are on <a href="https://github.com/fvalle1" target="_Blank"><i class="fa fa-github" aria-hidden="true"></i> my github profile</a>, below my favourites.
-          <h3 id="alice-experiment-at-cern">Tool for ALICE experiment at CERN</h3>
-          <p>I <a href="https://github.com/gabrielefronze/alice-MTR-utils/graphs/contributors">contribute</a> to develop <a href="https://github.com/gabrielefronze/alice-MTR-utils">alice-MTR-utils</a> (now <a href="https://gabrielefronze.github.io/MTR-shuttle/#acknowledgements" target="_Blank">MTRShuttle</a>), a set of utilities to generate plots for the muon trigger at ALICE experiment.
-            The tool is designed so that analysis are easy, efficient and automatic.</p>
-            <p>My thesis "<emph>A new tool to monitor RPC chambers of the muon trigger at CERN’s ALICE experiment</emph>" was about developing that tool and use it to analyse data from LHC taken in 2016.</p>
+  <!-- NavBar-->
+  <nav class="navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Home</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#home">Home</a>
+      </div>
 
-            You may find my presentation on <a href="https://www.slideshare.net/FilippoValle2/metodo-di-monitoraggio-delle-camere-rpc-di-mtr-ad-alice" target="_blank">https://www.slideshare.net/</a>
+      <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
 
-            <br>
-            <h3 id="cosmic-rays">Cosmic Rays</h3>
-            <p>I worked on a project I <em>Analisi di raggi cosmici attraverso un modello computazionale su Supercomputer</em> during High school.</p>
-            <p>I developed code to make a montecarlo simulation about interaction of cosmic rays with atmoshpere. I developed code was developed using <em>openMP</em> to optimize the execution of the code on a multi core hardware.</p>
-            <p>My slides are at <a href="http://www.slideshare.net/FilippoValle2/tesina-analisi-di-raggi-cosmici-e-supercomputer" target="_Blank">https://www.slideshare.net/</a></p>
-            <p>This work is referenced <a href="http://www.istitutomoro.it/area-studenti-e-famiglie/esame-di-stato/esempi-di-tesine/analisi-di-raggi-cosmici-mediante-supercomputer/" target="_Blank">at my shcool website</a>.</p>
+          <li class="menuItem"><a href="#projects">Projects</a></li>
+          <li class="menuItem"><a href="#interests">Interests</a></li>
+          <li class="menuItem"><a href="#me">Me</a></li>
+          <li class="menuItem"><a href="#contact">Contacts</a></li>
+        </ul>
+      </div>
 
-            <mydev></mydev>
-          </div>
-        </div>
+    </div>
+  </nav>
 
-        <div role="tabpanel" class="tab-pane" id="projects">
+  
+      <!-- Projects -->
+      <div id="projects" class="content-section-a">
+        <div class="container">
+          <div class="row">
 
-          <h2>Coding..</h2>
-          <h3>Machine Learning</h3>
-          <div style="width:100%;margin:auto">
-            <div style="float:right;width:60%;margin:auto;">
-              <img src="https://raw.githubusercontent.com/gabrielefronze/neuralC/master/nn.png" height="200px"/>
+            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+              <h2>Projects</h2>
+              <p class="lead" style="margin-top:0">My projects</p>
             </div>
-            <div style="float:left;width:40%;margin:auto;">
-              <p>I'm currently working to develop a neural network written in c++</p>
-              <p>
-                My <a href="https://github.com/fvalle1/neuralC" target="_blank">code</a> is under development
-              </p>
+
+            <div class="col-sm-6  block wow bounceIn">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="rotate" src="img/icon/alice.png" alt="glifico">
+                </div>
+                <div class="col-md-8 box-ct">
+                  <h3> Bachelor thesis </h3>
+                  <p> I implemented a new method to monitor RPC chamber at <a href="https://alice.web.cern.ch" alt="alice" target="_Blank">ALICE</a>'s muon trigger </p>
+                <p>My slides are at <a href="http://www.infn.it/thesis/thesis_dettaglio.php?tid=12008" alt="bachelor" target="_Blank">http://www.infn.it/thesis</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 block wow bounceIn">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="rotate" src="img/icon/network.png" alt="glifico">
+                </div>
+                <div class="col-md-8 box-ct">
+                  <h3> Master thesis </h3>
+                  <p> Currently developing network analysis on <a href="https://portal.gdc.cancer.gov" alt="master" target="_Blank">TCGA</a> database</p>
+<!--                   
+                  <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+                    <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+                 -->
+                  </div>
+              </div>
             </div>
           </div>
 
-
-          <h3 id="mac-app" style="padding-top:2em;">Mac Temperature App</h3>
-          <p>I developed an app to monitor macOS hardware.
-            Inspired by the utility <a href="https://www.ragingmenace.com/software/menumeters/" target="_blank">MenuMeter</a>, I tougth it would be useful to monitor the temperature of my hardware
-            so I developed my personal app.
-          </p>
-          <p>The project page is at: <a href="https://sourceforge.net/projects/macos-temperature/?source=directory" target="_blank">sourceforge.net/projects/macos-temperature</a></p>
-
-          <h3><emph>Bots</emph> for Telegram</h3>
-          <p>I wrote BOTs with the famous messaging platform Telegram
-            <ul style="text-align:left;">
-              <li><a href="https://github.com/fvalle1/haveibeenpwned" target="_blank">My code</a> is useful to interact with a service called <a href="http://haveibeenpwned.com" target="_blank">Have I been pwned?</a> and can be used to discover if an email addres has been hacked somewhere</li>
-              <li>Hardware side i wrote code to <a href="https://github.com/fvalle1/Arduino_COM" target="_blank">interact with Arduino</a>'s boards</li>  
-          </ul>
-          </p>
-
-          <h2 id="diceware">Diceware</h2>
-          <p>I <a href="http://www.taringamberini.com/it/diceware_it_IT/lista-di-parole-diceware-in-italiano/contributi/" target="_blank">contributed</a> to the italian version of <strong>Diceware</strong>.</p>
-          This is a list of words that can be used to generate simple, esay to remeber and effective passwords.
-          <h2 id="physics">Physics</h2>
-          <p>I was <a href="http://www.carnevaledellafisica.it/2014/11/dal-liceo-alla-facolta-di-fisica.html" target="_blank">interviewed</a> about my passion of physics.</p>
-          <h2 id="photos">Photos</h2>
-          <p>I really love <strong>taking photos</strong>, on <a href="https://flic.kr/ps/35x3u4" target="_blank">Flickr</a> you may find picutures.
-            I love taking photos during my trips and my trekking and I'm passionate in astrophotograpy. Our <strong>Moon</strong>, stars, nebulas are some of my favourite objects</p>
+          <div class="row tworow">
+            <div class="col-sm-6  block wow bounceIn">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="rotate" src="img/icon/code.jpg" alt="glifico">
+                </div>
+                <div class="col-md-8 box-ct">
+                  <h3> Cosmic Rays montecarlo </h3>
+                  <p> I simulated cosmic rays flow using <a href="https://cscs.ch" alt="cscs" target="_Blank">CSCS</a> supercomputing power. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 block wow bounceIn">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="rotate" src="img/icon/glifico.png" alt="glifico">
+                </div>
+                <div class="col-md-8 box-ct">
+                  <h3> Glifico</h3>
+                  <p> Glifico is a new platform that helps Translators to find new opportunities and jobs</p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
 
+  <!-- Interests -->
+  <div id="interests" class="content-section-b" style="border-top: 0">
+    <div class="container">
 
-          <div role="tabpanel" class="tab-pane" id="contacts">
-            <br>
-            <p><i class="fa fa-envelope-o" aria-hidden="true"></i> You may contact by email at <a id="mail" onclick="contacted()" class= "mail-link" href="mailto:filippo_valle@protonmail.com?subject=Message%20from%20site" >filippo_valle@protonmail.com</a>
-            </p>
-            <p><i class="fa fa-comments-o" aria-hidden="true"></i> I'm available on <a id="telegram" onclick="contacted()" href="https://telegram.me/Filippo_Valle" target="_blank">Telegram</a>.</p>
-            <p id="contact-thanks" ></p>
-            <span>
-              Linkedin:
-              <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="it_IT" data-type="horizontal" data-theme="light" data-vanity="filippo-v-5566a7100"><a class="LI-simple-link" href='https://it.linkedin.com/in/filippo-v-5566a7100?trk=profile-badge'>Filippo V.</a></div>
-            <a href="https://orcid.org/0000-0003-3577-8667" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0003-3577-8667</a>
-            </span>
+      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+        <h2>Interests</h2>
+        <p class="lead" style="margin-top:0">What I like</p>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-4 wow fadeInDown text-center">
+          <img class="rotate" src="img/icon/bulb.svg" alt="Generic placeholder image">
+          <h3>Physics</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-sm-4 wow fadeInDown text-center">
+          <img  class="rotate" src="img/icon/config.svg" alt="Generic placeholder image">
+          <h3>Computing</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-sm-4 wow fadeInDown text-center">
+          <img  class="rotate" src="img/icon/bicycle.svg" alt="Generic placeholder image">
+          <h3>Hiking and skiing</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
+      <div class="row tworow">
+
+        <div class="col-sm-4  wow fadeInDown text-center">
+          <img class="rotate" src="img/icon/tactics.svg" alt="Generic placeholder image">
+          <h3>Complex Systems</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-sm-4 wow fadeInDown text-center">
+          <img  class="rotate" src="img/icon/search.svg" alt="Generic placeholder image">
+          <h3>Data analysis</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-sm-4 wow fadeInDown text-center">
+          <img  class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
+          <h3>Developing</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+    </div>
+  </div>
+
+  <!-- Use it -->
+  <div id ="me" class="content-section-a">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-6 pull-right wow fadeInRightBig">
+          <img class="img-responsive" width="80%" src="img/profile.jpg" alt="">
+        </div>
+
+        <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+          <h3 class="section-heading">Filippo Valle</h3>
+          <div class="sub-title lead3">Physics's student</div>
+          <p class="lead">
+          I'm a Physics student passionate about modelling problems and apply methods and mathematics to real-world problem<br>
+
+          During high school I was at Swiss National Supercoputing Centre developing analysis on cosmic rays data <br>
+          I worked at CERN during my bachelor thesis, implementig a new framework to monitor revelators. I also attended inverted Cern School of Computing<br>
+          At MAster level I'm working on modelling TGCA's cancer data using network theory. I study correlations between words in a given text, where <emph>words</emph> are genes.
+          </p>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+      
+      <!-- Contact -->
+      <div id="contact" class="content-section-a">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-12 col-md-offset-0 text-center wrap_title">
+              <h2>Contacts</h2>
+            </div>
+            <div class="row">
+
+              <div class="col-sm-3 wow fadeInDown text-center animated animated" style="visibility: visible; animation-name: fadeInDown;">
+                <img class="rotate" src="img/icon/map.svg" alt="Address">
+                <h3>Address</h3>
+                <p class="lead"><br>
+                  Torino - Italy</p>
+
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-sm-3 wow fadeInDown text-center animated animated" style="visibility: visible; animation-name: fadeInDown;">
+                  <img class="rotate" src="img/icon/letter.svg" alt="E-mail">
+                  <h3>E-mail</h3>
+                  <p class="lead"><a href="mailto:filippo.valle@edu.unito.it" alt="mail">filippo.valle [at] edu.unito [dot] it</a></p>
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-sm-3 wow fadeInDown text-center animated animated" style="visibility: visible; animation-name: fadeInDown;">
+                  <img class="rotate" src="img/icon/telegram.png" alt="Telegram">
+                  <h3>Telegram</h3>
+                  <p class="lead"><a href="https://telegram.me/Filippo_Valle" alt="telegram">https://t.me/Filippo_Valle</a></p>
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-sm-3 wow fadeInDown text-center animated animated" style="visibility: visible; animation-name: fadeInDown;">
+                  <img class="rotate" src="img/icon/smartphone.svg" alt="Telephone">
+                  <h3>Telephone</h3>
+                  <p class="lead"><a href="tel:00393275436673" alt="phone">+39 327 5436673</a></p>
+                </div><!-- /.col-lg-4 -->
+
+              </div><!-- /.row -->
+            </div>
           </div>
         </div>
 
-      </section>
-    </body>
-    </html>
+
+
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+
+                <!-- LICENSE -->
+                <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
+                property="dc:title">Flatfy Theme </a> by
+                <a rel="dc:creator" href="http://www.andreagalanti.it"
+                property="cc:attributionName">Andrea Galanti</a>
+                released under the <a rel="license"
+                  href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
+                  Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
+                </div> <!-- /col-xs-7 -->
+              </div>
+            </div>
+          </footer>
+
+          <!-- JavaScript -->
+          <script src="js/jquery-1.10.2.js"></script>
+          <script src="js/bootstrap.js"></script>
+          <script src="js/owl.carousel.js"></script>
+          <script src="js/script.js"></script>
+          <!-- StikyMenu -->
+          <script src="js/stickUp.min.js"></script>
+          <script type="text/javascript">
+          jQuery(function($) {
+            $(document).ready( function() {
+              $('.navbar-default').stickUp();
+
+            });
+          });
+
+          </script>
+          <!-- Smoothscroll -->
+          <script type="text/javascript" src="js/jquery.corner.js"></script>
+          <script src="js/wow.min.js"></script>
+          <script>
+          new WOW().init();
+          </script>
+          <script src="js/classie.js"></script>
+          <script src="js/uiMorphingButton_inflow.js"></script>
+          <!-- Magnific Popup core JS file -->
+          <script src="js/jquery.magnific-popup.js"></script>
+        </body>
+
+        </html>
