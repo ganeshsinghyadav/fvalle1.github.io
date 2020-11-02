@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+
+  /* SVG icon */
+  body.dark-theme svg.icon path {
+    fill: #efefef;
+  }
+  /* Font icon (using Font Awesome as an example) */
+  body.dark-theme .fa {
+    color: #efefef;
+  }
+
+  .navbar-default, .navbar-default .navbar-nav > li > a{
+    color: #fefeff;
+    background-color: #767878;
+  }
+
+  .navbar-default .navbar-nav> li > a:hover, .navbar-default .navbar-nav> li > a:focus {
+    color: #1f1dae;
+    background-color: #767899;
+  }
+
+  .navbar-default .navbar-brand{
+    color: #fefeff;
+    background-color: #767878;
+  }
+
+  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color: #1f1dae;
+    background-color: #767878;
+  }
+
+  a {
+    color: #1a74ff;
+  }
+
+  a:hover {
+    background-color: #ffffff;
+    color: #3700B3;
+  }
+
+  .content-section-a{
+    color: #ffffff;
+    background-color: #121212;
+  }
+
+  .content-section-b{
+    color: #ffffff;
+    background-color: #121212;
+  }
+
+  ::selection {
+    color: #121212;
+    background-color: #ffffff;
+  }
+
+  footer{
+    color: #ffffff;
+    background-color: #080808;
+  }
+
+}
