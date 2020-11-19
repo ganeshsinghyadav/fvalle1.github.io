@@ -1,7 +1,7 @@
 # Use an official Python runtime as a parent image
 FROM php:7.1-apache
 
-MAINTAINER Filippo Valle filippo_valle@protonmail.com
+LABEL maintainer Filippo Valle filippo_valle@protonmail.com
 
 RUN mkdir /var/www/html/project
 RUN mkdir /var/www/html/project/web
