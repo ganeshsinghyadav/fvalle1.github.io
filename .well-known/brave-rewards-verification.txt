@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: fvalle1.github.io
+Token: 67a0ea33a40c23b592100f7f4360f638f4d7842b66c90b5a434fbdcb93d2cda4
