@@ -68,11 +68,11 @@
   <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
   <!-- get insight-->
-<script src="https://getinsights.io/js/insights.js"></script>
-<script>
-  insights.init('bs_jh3s1kC5nPtEY');
-  insights.trackPages();
-</script>
+  <script src="https://getinsights.io/js/insights.js"></script>
+  <script>
+    insights.init('bs_jh3s1kC5nPtEY');
+    insights.trackPages();
+  </script>
 
 
 </head>
@@ -82,7 +82,6 @@
   <div id="preloader">
     <p id="blacklivesmatter" />
     <div id="status"></div>
-    <p id="blacklivesmatter" />
   </div>
 
   <!-- FullScreen -->
@@ -121,41 +120,43 @@
       </div>
     </div>
   </div>
-</div>
 
-<!-- NavBar-->
-<nav class="navbar-default" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Home</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#home">Home</a>
+  <!-- NavBar-->
+  <nav class="navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Home</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#home">Home</a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+
+          <li class="menuItem"><a href="#projects">Projects</a></li>
+          <li class="menuItem"><a href="#interests">Interests</a></li>
+          <li class="menuItem"><a href="#me">Me</a></li>
+          <li class="menuItem"><a href="#papers">Publications</a></li>
+          <li class="menuItem"><a href="#contact">Contacts</a></li>
+        </ul>
+      </div>
+
     </div>
-
-    <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-
-        <li class="menuItem"><a href="#projects">Projects</a></li>
-        <li class="menuItem"><a href="#interests">Interests</a></li>
-        <li class="menuItem"><a href="#me">Me</a></li>
-        <li class="menuItem"><a href="#papers">Publications</a></li>
-        <li class="menuItem"><a href="#contact">Contacts</a></li>
-      </ul>
-    </div>
+  </nav>
 
   <!-- Projects -->
   <div id="projects" class="content-section-b">
     <div class="container">
       <div class="row">
 
-      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-        <h2>Projects</h2>
-        <p class="lead" style="margin-top:0">My projects</p>
-      </div>
+        <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+          <h2>Projects</h2>
+          <p class="lead" style="margin-top:0">My projects</p>
+        </div>
 
         <div class="col-sm-6  block wow bounceIn">
           <div class="row">
@@ -186,13 +187,6 @@
           -->
             </div>
           </div>
-          <div class="col-md-8 box-ct">
-            <h3> Master thesis </h3>
-            <p>  Studying network network theory applied to <a href="https://portal.gdc.cancer.gov" alt="master" target="_Blank">TCGA</a> and similar datasets</p>
-            <!--
-            <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
-            <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-          -->
         </div>
       </div>
 
@@ -223,17 +217,25 @@
       </div>
     </div>
   </div>
-</div>
 
-<!-- Interests -->
-<div id="interests" class="content-section-b" style="border-top: 0">
-  <div class="container">
+  <!-- Interests -->
+  <div id="interests" class="content-section-b" style="border-top: 0">
+    <div class="container">
 
-    <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-      <h2>Interests</h2>
-      <p class="lead" style="margin-top:0">What I like</p>
+      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+        <h2>Interests</h2>
+        <p class="lead" style="margin-top:0">What I like</p>
 
-    </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-4 wow fadeInDown text-center">
+          <img class="rotate" src="img/icon/bulb.svg" alt="Generic placeholder image">
+          <h3>Physics</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+
+        </div><!-- /.col-lg-4 -->
 
         <div class="col-sm-4 wow fadeInDown text-center">
           <img class="rotate" src="img/icon/config.svg" alt="Generic placeholder image">
@@ -247,19 +249,15 @@
           <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
         </div><!-- /.col-lg-4 -->
 
-      </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
-      <div class="col-sm-4 wow fadeInDown text-center">
-        <img  class="rotate" src="img/icon/config.svg" alt="Generic placeholder image">
-        <h3>Computing</h3>
-        <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
-      </div><!-- /.col-lg-4 -->
+      <div class="row tworow">
 
-      <div class="col-sm-4 wow fadeInDown text-center">
-        <img  class="rotate" src="img/icon/bicycle.svg" alt="Generic placeholder image">
-        <h3>Hiking and skiing</h3>
-        <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
-      </div><!-- /.col-lg-4 -->
+        <div class="col-sm-4  wow fadeInDown text-center">
+          <img class="rotate" src="img/icon/tactics.svg" alt="Generic placeholder image">
+          <h3>Complex Systems</h3>
+          <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+        </div><!-- /.col-lg-4 -->
 
         <div class="col-sm-4 wow fadeInDown text-center">
           <img class="rotate" src="img/icon/search.svg" alt="Generic placeholder image">
@@ -273,38 +271,20 @@
           <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
         </div><!-- /.col-lg-4 -->
 
-      <div class="col-sm-4  wow fadeInDown text-center">
-        <img class="rotate" src="img/icon/tactics.svg" alt="Generic placeholder image">
-        <h3>Complex Systems</h3>
-        <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
-      </div><!-- /.col-lg-4 -->
-
-      <div class="col-sm-4 wow fadeInDown text-center">
-        <img  class="rotate" src="img/icon/search.svg" alt="Generic placeholder image">
-        <h3>Data analysis</h3>
-        <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
-      </div><!-- /.col-lg-4 -->
-
-      <div class="col-sm-4 wow fadeInDown text-center">
-        <img  class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
-        <h3>Developing</h3>
-        <!-- <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
-      </div><!-- /.col-lg-4 -->
-
-    </div><!-- /.row -->
+      </div><!-- /.row -->
+    </div>
   </div>
-</div>
 
   <!-- Use it -->
   <div id="me" class="content-section-a">
 
-  <div class="container">
+    <div class="container">
 
-    <div class="row">
+      <div class="row">
 
-      <div class="col-sm-6 pull-right wow fadeInRightBig">
-        <img class="img-responsive" width="80%" src="img/profile.jpg" alt="">
-      </div>
+        <div class="col-sm-6 pull-right wow fadeInRightBig">
+          <img class="img-responsive" width="80%" src="img/profile.jpg" alt="">
+        </div>
 
         <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
           <h3 class="section-heading">Filippo Valle</h3>
@@ -319,13 +299,13 @@
             At Master level I worked on modelling TGCA's cancer data using network theory. I studied correlations
             between linguistincs, genomics and different fields of study.
 
-          Currently working on data mining on cancer datasets as Ph.D. student.
-        </p>
+            Currently working on data mining on cancer datasets as Ph.D. student.
+          </p>
+        </div>
       </div>
     </div>
+    <!-- /.container -->
   </div>
-  <!-- /.container -->
-</div>
 
   <!-- papers -->
   <div id="papers" class="content-section-b">
@@ -366,77 +346,72 @@
         </div>
       </div>
     </div>
+    <!-- /.container -->
 
-    <!-- open source -->
-    <div id="open" class="content-section-b">
-      <div class="container">
 
-        <div class="row">
+  </div>
 
-          <div class="col-md-12 col-md-offset-0 text-center wrap_title">
-            <h2 class="section-heading">Open source contributions</h2>
+  <!-- open source -->
+  <div id="open" class="content-section-b">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12 col-md-offset-0 text-center wrap_title">
+          <h2 class="section-heading">Open source contributions</h2>
+        </div>
+        <div class="col-sm-12 text-center wow fadeInDown animated animated"
+          style="visibility: visible; animation-name: fadeInDown;">
+          <p class="lead">
+          <div id="git-stats">
+            <img
+              src="https://camo.githubusercontent.com/8aed5a7c7861e02cee76f08c9cee9f3ef2f7377bca298ac41d9ac42e6fff798e/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6676616c6c6531267468656d653d6461726b2673686f775f69636f6e733d7472756526636f756e745f707269766174653d7472756526686964653d636f6e7472696273"
+              alt="fvalle1'stats"
+              data-canonical-src="https://github-readme-stats.vercel.app/api?username=fvalle1&amp;theme=dark&amp;show_icons=true&amp;count_private=true&amp;hide=contribs"
+              style="max-width:100%;" />
+
+            <img
+              src="https://camo.githubusercontent.com/adaa8a41e53553250c11245b59fc89aceed04813fc89b78316e5f2ade8f5bafa/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d6676616c6c6531266c616e67735f636f756e743d3530267468656d653d6461726b26686964653d6a7570797465722532306e6f7465626f6f6b2c68746d6c2c6373732c746578266c61796f75743d636f6d70616374"
+              alt="Top Langs"
+              data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=fvalle1&amp;langs_count=50&amp;theme=dark&amp;hide=jupyter%20notebook,html,css,tex&amp;layout=compact"
+              style="max-width:100%;" />
           </div>
-          <div class="col-sm-12 text-center wow fadeInDown animated animated"
-            style="visibility: visible; animation-name: fadeInDown;">
-            <p class="lead">
-            <div id="git-stats">
-              <img
-                src="https://camo.githubusercontent.com/8aed5a7c7861e02cee76f08c9cee9f3ef2f7377bca298ac41d9ac42e6fff798e/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6676616c6c6531267468656d653d6461726b2673686f775f69636f6e733d7472756526636f756e745f707269766174653d7472756526686964653d636f6e7472696273"
-                alt="fvalle1'stats"
-                data-canonical-src="https://github-readme-stats.vercel.app/api?username=fvalle1&amp;theme=dark&amp;show_icons=true&amp;count_private=true&amp;hide=contribs"
-                style="max-width:100%;" />
-
-              <img
-                src="https://camo.githubusercontent.com/adaa8a41e53553250c11245b59fc89aceed04813fc89b78316e5f2ade8f5bafa/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d6676616c6c6531266c616e67735f636f756e743d3530267468656d653d6461726b26686964653d6a7570797465722532306e6f7465626f6f6b2c68746d6c2c6373732c746578266c61796f75743d636f6d70616374"
-                alt="Top Langs"
-                data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=fvalle1&amp;langs_count=50&amp;theme=dark&amp;hide=jupyter%20notebook,html,css,tex&amp;layout=compact"
-                style="max-width:100%;" />
-            </div>
-            </p>
-            <p class="lead">
-              I contributed to the Open source community developing some (hopefully) usefull python packages, in
-              particular:
-            <ol>
-              <li><b>hopfield4py</b> is a <a href="https://pypi.org/project/hopfield4py/" target="_Blank">python
-                  package</a>
-                to run <a href="https://towardsdatascience.com/the-hopfield-network-67267d0569d2" target="_Blank">the
-                  hopfield
-                  network using Tensorflow</a></li>
-              <li><b>topicpy</b> is a <a href="https://pypi.org/project/topicpy/" target="_Blank">python package</a>
-                useful in topic
-                modeling</li>
-              <li><b>triSBM</b> is a <a href="https://anaconda.org/conda-forge/trisbm" target="_Blank">conda-forge
-                  package</a> to extend
-                topic modeling with keywords</li>
-            </ol>
-            </p>
-          </div>
+          </p>
+          <p class="lead">
+            I contributed to the Open source community developing some (hopefully) usefull python packages, in
+            particular:
+          <ol>
+            <li><b>hopfield4py</b> is a <a href="https://pypi.org/project/hopfield4py/" target="_Blank">python
+                package</a>
+              to run <a href="https://towardsdatascience.com/the-hopfield-network-67267d0569d2" target="_Blank">the
+                hopfield
+                network using Tensorflow</a></li>
+            <li><b>topicpy</b> is a <a href="https://pypi.org/project/topicpy/" target="_Blank">python package</a>
+              useful in topic
+              modeling</li>
+            <li><b>triSBM</b> is a <a href="https://anaconda.org/conda-forge/trisbm" target="_Blank">conda-forge
+                package</a> to extend
+              topic modeling with keywords</li>
+          </ol>
+          </p>
+        </div>
       </div>
     </div>
     <!-- /.container -->
 
 
   </div>
-  <!-- /.container -->
-</div>
 
-<!-- Contact -->
-<div id="contact" class="content-section-a">
-  <div class="container">
-    <div class="row">
 
-      <div class="col-md-12 col-md-offset-0 text-center wrap_title">
-        <h2>Contacts</h2>
-      </div>
+  <!-- Contact -->
+  <div id="contact" class="content-section-a">
+    <div class="container">
       <div class="row">
 
-        <div class="col-sm-3 wow fadeInDown text-center animated animated" style="visibility: visible; animation-name: fadeInDown;">
-          <img class="rotate" src="img/icon/map.svg" alt="Address">
-          <h3>Address</h3>
-          <p class="lead"><br>
-            Torino - Italy</p>
-
-          </div><!-- /.col-lg-4 -->
+        <div class="col-md-12 col-md-offset-0 text-center wrap_title">
+          <h2>Contacts</h2>
+        </div>
+        <div class="row">
 
           <div class="col-sm-3 wow fadeInDown text-center animated animated"
             style="visibility: visible; animation-name: fadeInDown;">
@@ -482,8 +457,7 @@
         <div class="col-md-12">
 
           <!-- LICENSE -->
-          <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy" property="dc:title">Flatfy Theme </a>
-          by
+          <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy" property="dc:title">Flatfy Theme </a> by
           <a rel="dc:creator" href="http://www.andreagalanti.it" property="cc:attributionName">Andrea Galanti</a>
           released under the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
             Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
