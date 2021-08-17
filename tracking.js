@@ -1,5 +1,4 @@
 function trackProfile(source) {
-    console.debug("tracking " + source);
     insights.track({
         id: "research-profile-click",
         parameters: {
@@ -12,7 +11,6 @@ function trackProfile(source) {
 }
 
 function trackOpenSource(source) {
-    console.debug("tracking " + source);
     insights.track({
         id: "open-source-click",
         parameters: {
@@ -25,7 +23,6 @@ function trackOpenSource(source) {
 }
 
 function trackMouseOver(data) {
-    console.debug("tracking over " + data);
     insights.track({
         id: "network-over",
         parameters: {
