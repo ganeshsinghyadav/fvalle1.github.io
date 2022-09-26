@@ -6,6 +6,15 @@ Build: 1.0
 http://www.andreagalanti.it
 */
 
+#me_profile {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%)
+}
+
+.elemento{
+	color: #ffa301;
+}
+
 /*General */
 
 body, html {
