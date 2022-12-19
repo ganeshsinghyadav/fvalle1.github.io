@@ -1,8 +1,8 @@
 {
-  "subject": "acct:${MASTODON_USER}@sigmoid.social",
+  "subject": "acct:fvalle@sigmoid.social",
   "aliases": [
     "https://sigmoid.social/fvalle",
-    "https://sigmoid.social/users/${MASTODON_USER}"
+    "https://sigmoid.social/users/fvalle"
   ],
   "links": [
      {
@@ -13,7 +13,7 @@
     {
       "rel": "self",
       "type": "application/activity+json",
-      "href": "https://sigmoid.social/users/${MASTODON_USER}"
+      "href": "https://sigmoid.social/users/fvalle"
     },
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
