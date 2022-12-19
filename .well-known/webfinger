@@ -1,0 +1,23 @@
+{
+  "subject": "acct:${MASTODON_USER}@sigmoid.social",
+  "aliases": [
+    "https://sigmoid.social/fvalle",
+    "https://sigmoid.social/users/${MASTODON_USER}"
+  ],
+  "links": [
+     {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://sigmoid.social/fvalle"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://sigmoid.social/users/${MASTODON_USER}"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://sigmoid.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
