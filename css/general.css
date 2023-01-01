@@ -12,7 +12,7 @@ http://www.andreagalanti.it
 }
 
 .elemento{
-	color: #ffa301;
+	color: #ffa601;
 }
 
 /*General */
@@ -83,7 +83,7 @@ margin: auto;
 
 .h1_home{
 	font-size: 80px;
-	font-family: figtree;
+	font-family: 'Be Vietnam Pro', sans-serif;
 	font-weight: 300;
 	letter-spacing: 6px;
 }
@@ -240,7 +240,7 @@ color: #ECEBEB;
 }
 
 .navbar-brand {
-	font-family: figtree;
+	font-family: 'Be Vietnam Pro', sans-serif;
 	letter-spacing: 3px;
 	font-weight: 400 !important;
 }
@@ -272,7 +272,7 @@ color: #ECEBEB;
 .intro-message > h1 {
 	margin: 0;
 	font-size: 5em;
-	font-family: "Figtree", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Be Vietnam Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
