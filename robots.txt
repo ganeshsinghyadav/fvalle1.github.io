@@ -4,3 +4,6 @@ Disallow: /network.html
 
 User-agent: Mediapartners-Google
 Disallow: /
+
+User-agent: GPTBot
+Disallow: /
