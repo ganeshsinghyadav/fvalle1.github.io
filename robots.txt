@@ -2,8 +2,14 @@ User-agent: *
 Disallow: /*.pdf$
 Disallow: /network.html
 
+User-agent: DuckDuckBot
+Allow: /index.html
+
+User-agent: GPTBot
+Disallow: /
+
 User-agent: Mediapartners-Google
 Disallow: /
 
-User-agent: GPTBot
+User-agent: Google-Extended
 Disallow: /
