@@ -1,0 +1,54 @@
+{
+    "name": "Fvalle apps",
+    "subtitle": "All my apps in one place.",
+    "description": "Welcome friend! Here you'll find all of my apps.",
+    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://fvalle.online",
+    "tintColor": "#4F9FAE",
+    "featuredApps": [
+        "online.fvalle.zotviewer"
+    ],
+    "apps": [
+        {
+            "name": "Zotviewer",
+            "bundleIdentifier": "online.fvalle.zotviewer",
+            "developerName": "Filippo Valle",
+            "subtitle": "Zotero on your iPhone",
+            "localizedDescription": "Zotviewer is a zotero client",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
+            "tintColor": "#5CA399",
+            "screenshots": [
+            ],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2024-08-12T09:00:00-08:00",
+                    "size": 10837428,
+                    "downloadURL": "https://fvalle.online/apps/zotviewer.ipa",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                ],
+                "privacy": {
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "Now on AltStore",
+            "identifier": "app_update",
+            "caption": "My apps are now on alt store",
+            "date": "2024-08-21T10:00:00-07:00",
+            "tintColor": "#4F9FAE",
+            "imageURL": "https://fvalle.my.canva.site/images/6131e01638416546588ff33ddf9eedbf.png",
+            "notify": false,
+            "appID": "online.fvalle.zotviewer"
+        }
+    ]
+}
