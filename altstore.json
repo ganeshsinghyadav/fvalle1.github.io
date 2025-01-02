@@ -1,9 +1,9 @@
 {
     "name": "Fvalle apps",
-    "subtitle": "All my apps in one place.",
-    "description": "Welcome friend! Here you'll find all of my apps.",
-    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "subtitle": "My projects in AltStore.",
+    "description": "Welcome friend! Here you'll find all apps of Filippo.",
+    "iconURL": "https://fvalle.online/img/F_dark.png",
+    "headerURL": "https://fvalle.online/img/F_dark.png",
     "website": "https://fvalle.online",
     "tintColor": "#4F9FAE",
     "featuredApps": [
@@ -16,7 +16,7 @@
             "developerName": "Filippo Valle",
             "subtitle": "Zotero on your iPhone",
             "localizedDescription": "Zotviewer is a zotero client",
-            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
+            "iconURL": "https://github.com/fvalle1/zotviewer/blob/main/logo.png?raw=true",
             "tintColor": "#5CA399",
             "screenshots": [
             ],
@@ -37,6 +37,58 @@
                 "privacy": {
                 }
             }
+        },
+        {
+            "name": "Energy",
+            "bundleIdentifier": "online.fvalle.energy",
+            "developerName": "Filippo Valle",
+            "subtitle": "View energy data",
+            "localizedDescription": "View energy data",
+            "iconURL": "https://github.com/fvalle1/energy_app/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
+            "tintColor": "#B2D5A8",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2024-08-12T09:00:00-08:00",
+                    "size": 10837428,
+                    "downloadURL": "https://fvalle.online/apps/energy.ipa",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups"
+                ],
+                "privacy": {}
+            }
+        },
+        {
+            "name": "Fussball",
+            "bundleIdentifier": "online.fvalle.fussball",
+            "developerName": "Filippo Valle",
+            "subtitle": "A fussball project",
+            "localizedDescription": "A fussball app",
+            "iconURL": "https://github.com/fvalle1/fussball/blob/main/android/app/src/main/res/mipmap-hdpi/ic_launcher.png?raw=true",
+            "tintColor": "#B2D5A8",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2024-08-12T09:00:00-08:00",
+                    "size": 10837428,
+                    "downloadURL": "https://fvalle.online/apps/fussball.ipa",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups"
+                ],
+                "privacy": {}
+            }
         }
     ],
     "news": [
@@ -44,7 +96,7 @@
             "title": "Now on AltStore",
             "identifier": "app_update",
             "caption": "My apps are now on alt store",
-            "date": "2024-08-21T10:00:00-07:00",
+            "date": "2025-01-01T10:00:00-07:00",
             "tintColor": "#4F9FAE",
             "imageURL": "https://fvalle.my.canva.site/images/6131e01638416546588ff33ddf9eedbf.png",
             "notify": false,
